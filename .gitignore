@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+package-lock.json
+npm-debug.log
+yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+env/
+venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+postgres_data/
+
+# Build
+dist/
+build/

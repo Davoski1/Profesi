@@ -1,0 +1,154 @@
+.guidance-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding-bottom: 40px;
+}
+
+.guidance-page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tab {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.tab:hover {
+  background: #f3f4f6;
+  transform: translateY(-2px);
+}
+
+.tab.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.guidance-content-section {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.guidance-content-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.guidance-section {
+  margin-bottom: 30px;
+}
+
+.guidance-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-block {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  border-left: 4px solid #3b82f6;
+}
+
+.action-block h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.05rem;
+}
+
+.action-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.action-block li {
+  padding: 6px 0;
+  color: #555;
+  margin-left: 0;
+}
+
+.action-block li:before {
+  content: "✓ ";
+  color: #22c55e;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.checkbox-item:hover {
+  background: #f3f4f6;
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.checkbox-item span {
+  color: #555;
+  flex-grow: 1;
+}
+
+.step-item {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  background: #f9fafb;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #3b82f6;
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.step-item > span:last-child {
+  color: #555;
+  flex-grow: 1;
+  padding-top: 6px;
+}
