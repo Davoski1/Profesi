@@ -1,0 +1,96 @@
+# ============================================
+# Python & Virtual Environments
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ============================================
+# Environment & Secrets (CRITICAL!)
+# ============================================
+.env
+.env.*
+!.env.example
+.env.local
+.env.production
+
+# ============================================
+# Version Control
+# ============================================
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# ============================================
+# IDE & Editors
+# ============================================
+.vscode/
+.idea/
+.sublime-text/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Logs & Temporary Files
+# ============================================
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ============================================
+# Node (Frontend) - Optional
+# ============================================
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+
+# ============================================
+# Testing & Coverage
+# ============================================
+tests/
+coverage/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================
+# Database - Backups Only (Keep .sql!)
+# ============================================
+database/*.backup
+database/*.dump
+database/*.bak
+postgres_data/
+pgdata/
+
+# ============================================
+# Docker & Container Files
+# ============================================
+Dockerfile.test
+docker-compose.override.yml
+
+# ============================================
+# DO NOT IGNORE (Keep these!)
+# ============================================
+# database/init.sql      ← INCLUDED
+# database/schema.sql    ← INCLUDED
+# database/seed.sql      ← INCLUDED
+# Dockerfile             ← INCLUDED
+# docker-compose.yml     ← INCLUDED
+# requirements.txt       ← INCLUDED
